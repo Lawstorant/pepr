@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
 
-    "name": "Portal Edukacyjny - Pakiet ułatwień",
+    "name": "Portal Edukacyjny - Pakiet rozszerzeń",
     "description": "Umożliwia logowanie się poprzec wciśnięcie klawisza Enter, automatyczne włączenie dziennika po zalogowaniu i wyświetlanie średniej ocen",
     "version": "1.0",
 
