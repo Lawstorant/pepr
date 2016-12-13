@@ -8,21 +8,21 @@
     "content_scripts": [ {
             "exclude_globs":    [  ],
             "include_globs":    [ "*" ],
-            "js":               [ "pesr.user.js" ],
+            "js":               [ "pesr.js" ],
             "matches": [ "https://iuczniowie.pe.szczecin.pl/mod_panelRodzica/Oceny.aspx" ],
             "run_at": "document_start"
     },
 		{
             "exclude_globs":    [  ],
             "include_globs":    [ "*" ],
-            "js":               [ "pead.user.js" ],
+            "js":               [ "pead.js" ],
             "matches": [ "https://pe.szczecin.pl/chapter_201209.asp" ],
             "run_at": "document_start"
     },
 		{
             "exclude_globs":    [  ],
             "include_globs":    [ "*" ],
-            "js":               [ "pepe.user.js" ],
+            "js":               [ "pepe.js" ],
             "matches": [ "https://pe.szczecin.pl/chapter_201208.asp" ],
             "run_at": "document_start"
     }],
