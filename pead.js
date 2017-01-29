@@ -1,2 +1,2 @@
-let a = document.querySelectorAll("ul.aplikacje a.customfont_bold");
+let a = document.querySelectorAll("a.mainlink_login[title='Dziennik elektroniczny']");
 a[0].click();
