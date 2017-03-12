@@ -3,14 +3,14 @@
 
     "name": "Portal Edukacyjny - Pakiet rozszerzeń",
     "description": "Umożliwia logowanie się poprzec wciśnięcie klawisza Enter, automatyczne włączenie dziennika po zalogowaniu i wyświetlanie średniej ocen",
-    "version": "1.2",
+    "version": "1.3",
 
     "content_scripts": [ {
             "exclude_globs":    [  ],
             "include_globs":    [ "*" ],
             "js":               [ "pesr.js" ],
             "matches": [ "https://iuczniowie.pe.szczecin.pl/mod_panelRodzica/Oceny.aspx" ],
-            "run_at": "document_start"
+            "run_at": "document_idle"
     },
 		{
             "exclude_globs":    [  ],

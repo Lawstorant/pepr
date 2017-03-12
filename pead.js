@@ -1,4 +1,2 @@
-document.addEventListener("DOMContentLoaded", function(){
-	let dziennik = document.querySelectorAll("a.mainlink_login[title='Dziennik elektroniczny']");
-	dziennik[0].click();
-});
+let a = document.querySelectorAll("a.mainlink_login[title='Dziennik elektroniczny']");
+a[0].click();
